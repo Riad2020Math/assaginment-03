@@ -13,27 +13,36 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="sora">
-    <nav class="bg-[#FFF9F4] flex items-center justify-between h-25">
-        <div class="flex ml-6 lg:ml-36">
-            <img src="c1-assets/logo-header.png" alt="">
-            <h1 class="invisible md:visible flex items-center ml-3 text-26px text-[#111111]"><div class="text-26px">Browse</div><div class="text-[#FFDC26]">4</div><div>Pets</div></h1>
+<body class="font-sora bg-white">
+    <nav class="sora bg-[#FFF9F4] flex flex-row md:flex-row justify-between gap-0 md:items-center md:justify-between h-25">
+        <div class="flex ml-3 lg:ml-28">
+            <img class="p-5" src="c1-assets/logo-header.png" alt="">
+            <h1 class="invisible md:visible flex items-center ml-3 text-[#111111] md:text-[24px]"><div class="text-[0px] md:text-[24px]">Browse</div><div class="text-[#FFDC26]">4</div><div  class="text-[0px] md:text-[24px]">Pets</div></h1>
         </div>
         <div class="invisible lg:visible">
-            <ul class="flex gap-3 text-20px text-[#111111]">
+            <ul class="flex gap-3 text-[0px] lg:text-[16px] text-[#111111]">
                 <li><a href="" class="text-20px">Find a pet</a></li>
                 <li><a href="">Breeds</a></li>
                 <li><a href="">Contact us</a></li>
             </ul>
         </div>
-        <div class="invisible md:visible mr-4 lg:mr-36 flex gap-3 items-center">
+        <div class="invisible md:visible mr-4 lg:mr-28 flex gap-3 items-center text-[0px] md:text-[20px]">
             <i class="fa-solid fa-bell"></i>
             <i class="fa-solid fa-magnifying-glass"></i>
             <button class="btn btn-outline btn-warning">Login</button>
             <button class="btn btn-warning">Register</button>
-            <i class="fa-solid fa-bars visible md:invisible"></i>
+            <i class="fa-solid fa-bars visible md:invisible text-[30px]"></i>
         </div>
     </nav>
-
+    <section class="flex flex-col p-4 md:px-6 lg:px-32">
+        <div class="absolute">
+            <div class="adlam-display-regular font-normal text-[30px] md:text-[40px] lg:text-[56px] text-[#111111] mt-4 md:mt-10 lg:mt-20">Pamper Your Pet,<br> Because They Deserve <br>the Bes</div>
+            <div class="sora text-[16px] text-[#4B4B4B] font-normal mt-4 mb-6">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</div>
+            <div><button class="btn btn-warning sora text-[20px] text-[#111111]">Find a pet</button></div>
+        </div>
+        <div class="mt-60 mb-12 max-w-full w-auto flex justify-center">
+            <img src="c1-assets/cat-big.png" alt="">
+        </div>
+    </section>
 </body>
 </html>
